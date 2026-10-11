@@ -1,0 +1,136 @@
+{
+  "produtos": [],
+  "categorias": [
+    {
+      "id": 1001,
+      "nome": "EPI",
+      "descricao": "Equipamentos de proteção individual",
+      "ativo": "Sim"
+    },
+    {
+      "id": 1002,
+      "nome": "Uniformes",
+      "descricao": "Uniformes e vestuário",
+      "ativo": "Sim"
+    },
+    {
+      "id": 1003,
+      "nome": "Ferramentas",
+      "descricao": "Ferramentas manuais e elétricas",
+      "ativo": "Sim"
+    },
+    {
+      "id": 1004,
+      "nome": "Material de consumo",
+      "descricao": "Materiais de uso geral",
+      "ativo": "Sim"
+    },
+    {
+      "id": 1005,
+      "nome": "Equipamentos",
+      "descricao": "Equipamentos e máquinas",
+      "ativo": "Sim"
+    }
+  ],
+  "unidades": [
+    {
+      "id": 2001,
+      "sigla": "UN",
+      "nome": "Unidade",
+      "descricao": "Peça/unidade"
+    },
+    {
+      "id": 2002,
+      "sigla": "CX",
+      "nome": "Caixa",
+      "descricao": "Caixa"
+    },
+    {
+      "id": 2003,
+      "sigla": "KG",
+      "nome": "Quilograma",
+      "descricao": "Peso"
+    },
+    {
+      "id": 2004,
+      "sigla": "M",
+      "nome": "Metro",
+      "descricao": "Comprimento"
+    }
+  ],
+  "clientes": [],
+  "fornecedores": [],
+  "funcionarios": [],
+  "compras": [],
+  "vendas": [],
+  "movimentacoes": [],
+  "inventario": [],
+  "financeiro": [],
+  "contasbancarias": [
+    {
+      "id": 5001,
+      "nome": "Caixa principal",
+      "banco": "",
+      "agencia": "",
+      "numero": "",
+      "saldoInicial": 0,
+      "ativo": "Sim"
+    }
+  ],
+  "centroscustos": [],
+  "formasPagamento": [
+    {
+      "id": 3001,
+      "nome": "PIX",
+      "tipo": "Instantâneo",
+      "prazo": 0,
+      "ativo": "Sim"
+    },
+    {
+      "id": 3002,
+      "nome": "Dinheiro",
+      "tipo": "À vista",
+      "prazo": 0,
+      "ativo": "Sim"
+    },
+    {
+      "id": 3003,
+      "nome": "Cartão de débito",
+      "tipo": "À vista",
+      "prazo": 1,
+      "ativo": "Sim"
+    },
+    {
+      "id": 3004,
+      "nome": "Cartão de crédito",
+      "tipo": "Cartão",
+      "prazo": 30,
+      "ativo": "Sim"
+    },
+    {
+      "id": 3005,
+      "nome": "Boleto",
+      "tipo": "Bancário",
+      "prazo": 30,
+      "ativo": "Sim"
+    },
+    {
+      "id": 3006,
+      "nome": "Transferência",
+      "tipo": "Bancário",
+      "prazo": 0,
+      "ativo": "Sim"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 4001,
+      "nome": "Administrador",
+      "login": "admin",
+      "perfil": "Administrador",
+      "status": "Ativo",
+      "observacao": "Usuário inicial do sistema"
+    }
+  ],
+  "auditoria": []
+}
